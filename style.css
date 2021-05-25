@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(44, 44, 44);
+}
+
+.title {
+    font-family: 'Arial';
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+}
+
+.subtitulo {
+    color: white;
+    font-family: 'Arial';
+    font-size: 30px;
+}
+
+.colocar-num {
+    margin-top: -20px;
+    width: 204px;
+    border: none;
+    text-align: center;
+}
+
+.botao {
+    width: 70px;
+    height: 30px;
+    background-color: rgb(255, 251, 10);
+    border: 0;
+    font-family: 'Arial';
+}
+
+.botao:hover {
+    background-color: rgb(145, 145, 9);
+    color: white;
+}
+
+.resposta-border {
+    padding: 10px;
+    border: 1px white solid;
+    border-radius: 10px;
+}
+
+#resposta {
+    display: inline;
+    color: white;
+    font-size: 17px;
+    font-family: 'Arial';
+}
+
+
+/* Estilização para o input */
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
